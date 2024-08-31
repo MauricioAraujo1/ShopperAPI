@@ -15,6 +15,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [ ] [NestJS]
 - [ ] [PrismaIO]
+- [ ] [PostgreSQL]
 - [ ] [TypeScript]
 - [ ] [NodeJS]
 - [ ] [Docker]
