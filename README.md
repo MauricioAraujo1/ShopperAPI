@@ -4,12 +4,11 @@
 </p>
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
-<p align="center" dir="auto">⚔Bem-Vindo ao Sistema de Livros mais Famoso da América Latina⚔</p>
+<p align="center" dir="auto">⚔Bem-Vindo ao ShopperAPI⚔</p>
 
 <h2>💻 Descrição do Projeto</h2>
 
-Nesta aplicação, teremos um sistema onde podemos listar livros de diversos temas, descrições e bar_code, criar novos livros, atualizar os temas, descrições e também deletar os livros que não iremos mais utilizar. 
-
+Nesta aplicação, teremos o back-end de um serviço que gerencia a leitura individualizada de consumo de água e gás. Para facilitar a coleta da informação, o serviço utilizará IA para obter a medição através da foto de um medidor. 
 <h2>🛠 Tecnologias</h2>
 
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -18,53 +17,50 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [ ] [PrismaIO]
 - [ ] [TypeScript]
 - [ ] [NodeJS]
-- [ ] [SQLite]
+- [ ] [Docker]
 
 <h2>🚀 Como executar o projeto</h2>
 
 <span class="pl-c"><span class="pl-c">#</span> Clone este repositório</span>
 
 ```
-https://github.com/MauricioAraujo1/Book-API.git
+https://github.com/MauricioAraujo1/ShopperAPI.git
 ```
 
 <h2>🧭 Instalação</h2>
 
-<span class="pl-c"><span class="pl-c">#</span> Acesse a pasta do projeto no terminal/cmd e execute os seguintes comandos:</span>
+<span class="pl-c"><span class="pl-c">#</span>Nessa aplicação tá sendo o utilizado o PNPM, instale ele globalmente no Powershell de administrador da sua máquina com o seguinte comando:</span>
 
 ```
-$ cd Book-API
-$ npm install
+$ npm install -g pnpm
+```
+
+<span class="pl-c"><span class="pl-c">#</span>Após instalado o pnpm, acesse a pasta do projeto no terminal/cmd e execute os seguintes comandos:</span>
+
+```
+$ cd ShopperAPI
+$ pnpm install
 ```
 
 <h2>Rodando a Aplicação Back-End</h2>
 
 ```bash
 # development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
+$ pnpm run start:dev
 
 # production mode
-$ npm run start:prod
+$ pnpm run start:prod
 ```
 
-<h2>Rodando Testes Unitários</h2>
+<h2>Subindo o docker compose (container e imagem), escreva o seguinte comando:</h2>
 
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+# docker compose
+$ docker-compose up -d
 ```
 
 <h2>🤝 Suporte</h2> 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/MauricioAraujo1/Book-API/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/MauricioAraujo1/ShopperAPI/issues).
 
 <h2>👤 Autor</h2>
 **🕵 Maurício Araújo**
