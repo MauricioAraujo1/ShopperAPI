@@ -82,6 +82,5 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 </table>
 <hr>
 
-* Github: [MauricioAraujo1](https://github.com/MauricioAraujo1)
 * LinkedIn: [@mauricioarj1](https://linkedin.com/in/mauricioarj1)
 
